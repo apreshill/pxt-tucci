@@ -1,0 +1,12 @@
+[project]
+name = "pxt-tucci"
+version = "0.1.0"
+description = "PixelTable project"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "jupyter>=1.1.1",
+    "openai-whisper>=20250625",
+    "pixeltable>=0.3.13",
+]
+
