@@ -1,6 +1,6 @@
 # pxt-tucci
 
-A PixelTable project using uv for dependency management.
+A Pixeltable project using uv for dependency management.
 
 ## Setup
 
