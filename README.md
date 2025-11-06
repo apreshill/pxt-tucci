@@ -7,7 +7,11 @@ A PixelTable project using uv for dependency management.
 This project uses [uv](https://github.com/astral-sh/uv) for dependency management. Dependencies are managed natively through `uv` - no pip or manual venv management needed.
 
 1. Install dependencies: `uv sync` (this includes the spaCy English model and torch/transformers required for sentence splitting, object detection, and CLIP embeddings)
-2. Configure OpenAI API key: The notebook will prompt you to enter your API key when you run it, or you can set it as an environment variable `OPENAI_API_KEY`
+2. Configure API keys: The notebook will prompt you to enter your API keys when you run it, or you can set them as environment variables:
+   - `OPENAI_API_KEY` - Required for OpenAI Whisper transcription
+   - `PIXELTABLE_API_KEY` - Required for publishing to Pixeltable cloud
+
+   **Security Note**: Keep your keys secure by using environment variables, never commit them to git, and delete unused keys.
 
 ## Usage
 
